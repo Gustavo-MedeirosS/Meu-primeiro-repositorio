@@ -3,7 +3,7 @@
 
 <head>
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
                     <a href="#">|</a>
                 </li>
                 <li>
-                    <a href="login.html">Login</a>
+                    <a class="login" href="login.html">Login</a>
                 </li>
                 <li>
                     <a href="#">Cadastro</a>
@@ -35,8 +35,22 @@
 
     <div class="banner">
         <div class="container">
-            <p class="tamanho-conteudo">Preservando <span>hoje</span> para existirem <span>amanhã</span>.</p>
+            <h1> Olá de volta!</h1>
+            <div class="input-container">
+                <span>E-mail:</span> <br>
+                <input placeholder="Login"> <br>
+            </div>
+            <div class="input-container">
+                <span>Senha:</span> <br>
+                <input placeholder="******"> <br>
+            </div>
+            <button onclick="entrar()">Entrar</button>
         </div>
+    </div>
+
+    <div class="footer">
+        <span>Feito com amor por um aluno &hearts; SPTech &copy; 2023</span>
+        <span class="version">v1.0.0</span>
     </div>
 </body>
 

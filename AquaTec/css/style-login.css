@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header {
+    border-bottom: 2px #32b9cd solid;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    color: #e3b062;
+}
+
+.login {
+    font-weight: 900;
+}
+
+.navbar {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.titulo {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.banner {
+    height: 350px;
+    padding: 40px 0;
+    color: white;
+    background-image: url('../assets/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .container {
+    padding: 15px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    border-radius: 4px;
+    width: 350px;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    color: #E6005a;
+    align-items: center;
+}
+
+.banner .container .input-container span {
+    font-weight: 800;
+    color: #db7093;
+}
+
+.banner .container .input-container input {
+    height: 30px;    
+    width: 100%;
+    border: solid 1px #32B9CD;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner .container h1 {
+    font-size: 30px;
+    color: #db7093;    
+}
+.banner .container .input-container {
+    width: 50%;
+}
+
+.banner .container button {
+    height: 30px;
+    width: 80px;
+    border: 0 solid #E6005a;
+    border-radius: 5px;
+    background-color: #E6005a;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 113px;
+    background-color: #32B9CD;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .version {
+    font-size: 12px;
+}
